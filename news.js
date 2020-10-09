@@ -13,7 +13,7 @@ tech1.addEventListener("click",()=>{
 
 
 });
-fetch(`https://google-news.p.rapidapi.com/v1/topic_headlines?country=IN&lang=en`, {
+fetch(`https://google-news.p.rapidapi.com/v1/topic_headlines?country=in&lang=en`, {
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-host": "google-news.p.rapidapi.com",
